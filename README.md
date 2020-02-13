@@ -1,1 +1,1 @@
-building an About Me page as part of Digital Crafts prerequisite work for the March Immersive cohort
+building an About Me page as part of DigitalCrafts prerequisite work for the March Immersive cohort
