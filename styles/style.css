@@ -3,3 +3,9 @@ body {
     color: #333333;
     font-family: Courier;
 }
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+}
