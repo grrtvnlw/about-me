@@ -1,5 +1,5 @@
 body {
-    background-color: #e6ffff;
+    background: linear-gradient(35deg, #e6ffff, #f3e6ff);
     color: #333333;
     font-family: Courier;
 }
@@ -13,6 +13,15 @@ img {
 ul {
     list-style-type: none;
     padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #f3e6ff;
 }
 
 p {
