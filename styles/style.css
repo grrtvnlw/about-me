@@ -12,4 +12,9 @@ img {
 
 ul {
     list-style-type: none;
+    padding-left: 15px;
+}
+
+p {
+    padding-left: 15px;
 }
