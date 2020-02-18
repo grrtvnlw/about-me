@@ -9,3 +9,7 @@ img {
     height: 300px;
     border-radius: 15%;
 }
+
+ul {
+    list-style-type: none;
+}
