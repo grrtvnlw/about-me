@@ -1,7 +1,8 @@
-body {
-    background: linear-gradient(35deg, #e6ffff, #f3e6ff);
+html {
+    background: linear-gradient(35deg, hsl(180, 70%, 85%), hsl(271, 70%, 85%));
     color: #333333;
     font-family: Courier;
+    height: 100%;
 }
 
 img {
