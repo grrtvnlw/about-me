@@ -9,6 +9,7 @@ img {
     width: 425px;
     height: 300px;
     border-radius: 5%;
+    margin-top: 10px;
 }
 
 .secondImg {
@@ -20,6 +21,14 @@ img {
 ul {
     list-style-type: none;
     padding-left: 15px;
+    margin-left: auto;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
 }
 
 a {
@@ -28,9 +37,29 @@ a {
 }
 
 a:hover {
-    color: hsl(271, 70%, 75%);
+    color: hsl(180, 70%, 60%);
 }
 
 p {
     padding-left: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+h1 {
+    display: inline-block;
+}
+
+footer p {
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+#altLink:hover {
+    color: hsl(271, 70%, 75%);
 }
