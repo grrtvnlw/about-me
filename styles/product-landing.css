@@ -1,0 +1,113 @@
+html {
+  font-family: Verdana;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  margin-left: -8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+.company {
+  font-size: 30px;
+  order: 1;
+}
+
+#header-img {
+  width: 75px;
+  height: 75px;
+  margin-left: 20px;
+}
+
+.left {
+  order: 1;
+  margin-right: auto;
+}
+
+.nav-link {
+  padding: 0px 20px;
+  display: inline-block;
+  order: 2;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+nav {
+  background-color: rgba(255, 0, 0, .8);
+  width: 100%;
+}
+
+main {
+  text-align: center;
+  margin-top: 150px;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+input[type="email"] {
+  width: 15%;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+input[type="email"]:focus {
+  border: solid rgba(255, 0, 0, .9) 2px;
+  outline: none;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgba(255, 0, 0, .9);
+  color: white;
+  border-radius: 5px;
+}
+
+iframe {
+  margin-top: 40px;
+}
+
+#section-features {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.line{ 
+    margin-top: 20px;
+    display: block;
+    border: none;
+    color: white;
+    height: 1px;
+    background: red;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 900, from(#f00), to(#fff));
+}

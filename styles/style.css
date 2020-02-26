@@ -23,16 +23,15 @@ img:hover {
 }
 
 ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-top: 35px;
     flex-wrap: wrap;
+    padding-left: 15px;
 }
 
 li {
-    display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 30px;
 }
 
 a {
@@ -51,13 +50,14 @@ p {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
 }
 
 h1 {
-    display: inline-block;
     font-size: 32px;
+    margin-right: auto;
 }
 
 footer p {
