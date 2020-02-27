@@ -72,7 +72,7 @@ footer p {
 
 @media only screen and (max-device-width: 480px) {
     html {
-        height: 105%;
+        height: 110%;
     }
     
     body {
@@ -81,6 +81,10 @@ footer p {
 
     main, footer {
         text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
     }
 
     h2 {
@@ -99,7 +103,7 @@ footer p {
     }
 
     li a {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     img {
