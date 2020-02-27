@@ -72,7 +72,7 @@ footer p {
 
 @media only screen and (max-device-width: 480px) {
     html {
-        height: 200%;
+        height: 120%;
     }
     
     body {
