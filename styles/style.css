@@ -71,6 +71,10 @@ footer p {
 }
 
 @media only screen and (max-device-width: 480px) {
+    html {
+        height: 120%;
+    }
+    
     body {
         height: 100vh;
     }
@@ -81,10 +85,12 @@ footer p {
 
     h2 {
         padding-bottom: 15px;
+        font-size: 2em;
     }
 
     p {
         padding-bottom: 30px;
+        font-size: 2em;
     }
 
     img {
