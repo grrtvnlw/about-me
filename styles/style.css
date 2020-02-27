@@ -8,7 +8,7 @@ html {
 img {
     width: 450px;
     height: 325px;
-    border-radius: 5%;
+    border-radius: 5px;
     margin-top: 10px;
 }
 
@@ -19,7 +19,7 @@ img:hover {
 .secondImg {
     width: 350px;
     height: 350px;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
 ul {
@@ -75,7 +75,7 @@ footer p {
         height: 100vh;
     }
 
-    main {
+    main, footer {
         text-align: center;
     }
 
@@ -83,7 +83,15 @@ footer p {
         padding-bottom: 15px;
     }
 
-    p, img {
+    p {
         padding-bottom: 30px;
+    }
+
+    img {
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 80%;
+        height: 80%;
     }
 }
