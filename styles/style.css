@@ -74,4 +74,16 @@ footer p {
     body {
         height: 100vh;
     }
+
+    main {
+        text-align: center;
+    }
+
+    h2 {
+        padding-bottom: 15px;
+    }
+
+    p, img {
+        padding-bottom: 30px;
+    }
 }
